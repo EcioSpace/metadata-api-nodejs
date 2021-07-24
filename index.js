@@ -1,10 +1,9 @@
 const express = require('express')
 const path = require('path')
-const moment = require('moment')
 const { HOST } = require('./src/constants')
 const db = require('./src/database')
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 80
 
 const app = express()
   .set('port', PORT)
